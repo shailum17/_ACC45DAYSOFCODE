@@ -1,0 +1,28 @@
+// Write a C program to find the sum,substraction,multiplication and division of two numbers given by user
+
+#include<stdio.h>
+int
+main ()
+{
+  int a, b, sum = 0, mul = 0, sub = 0, div = 0;
+  printf (" Enter two numbers : ");
+  scanf ("%d%d", &a, &b);
+  {
+    sum = a + b;
+    printf (" The sum of numbers given by user : %d \n ", sum);
+  }
+  {
+    mul = a * b;
+    printf (" The sum of numbers given by user : %d \n ", mul);
+  }
+  {
+    sub = a - b;
+    printf (" The sum of numbers given by user : %d \n ", sub);
+  }
+    {
+        div=a/b;
+        printf(" The sum of numbers given by user : %d \n ", div);
+    }
+
+return 0;
+}

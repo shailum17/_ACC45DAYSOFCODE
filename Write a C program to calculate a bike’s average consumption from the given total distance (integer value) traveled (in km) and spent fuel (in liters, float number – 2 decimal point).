@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int travelled,fuel;
+    float average=0;
+    printf(" \n Enter the distance travelled by bike : ");
+    scanf("%d",&travelled);
+    printf("\n Enter the fuel consumption : ");
+    scanf("%d",&fuel);
+    average=average+travelled/fuel;
+    printf("Average consumption (km/lt):%.2f",average);
+    return 0;
+    
+}

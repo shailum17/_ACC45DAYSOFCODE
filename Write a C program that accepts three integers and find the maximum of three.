@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+    int intg1,intg2,intg3,i;
+    printf("\n Enter the first integer : ");
+    scanf("%d",&intg1);
+    printf("\n Enter the second integer : ");
+    scanf("%d",&intg2);
+    printf("\n Enter the third integer : ");
+    scanf("%d",&intg3);
+    if(intg1>intg2)
+    {
+        printf("\n The maximum integer vlaue = %d",intg1);
+    }
+    else if(intg2>intg3) 
+    {
+        printf("\n The maximum integer vlaue = %d",intg2);
+    }
+    else
+    {
+        printf("\n The maximum integer vlaue = %d",intg3);
+    }
+    return 0;
+    
+}

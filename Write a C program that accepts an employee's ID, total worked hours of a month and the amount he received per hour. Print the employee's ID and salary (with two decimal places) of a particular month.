@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int hours ;
+    char id[10];
+    double amount,salary;
+    printf("\n  Enter the Employee id : ");
+    scanf("%s",&id);
+    printf(" \n Enter the working hours : ");
+    scanf("%d",&hours);
+    printf(" \n Enter the amount per hour : ");
+    scanf("%lf",&amount);
+    salary=hours*amount;
+    printf(" \n Employee id = %s \n Working hours = %d \n total salary = %.4lf ",id,hours,salary);
+    
+}

@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("Enter the smaller number :\n ");
+    scanf("%d",&num);
+    
+    if(num<=10)
+    {
+        printf("The smaller number is : %d ",num);
+    }
+    else
+    printf("The larger number : %d",num);
+}

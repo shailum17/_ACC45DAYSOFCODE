@@ -1,0 +1,26 @@
+#include<stdio.h>
+void main ()
+{
+  
+    int x,y,m;
+    printf("Enter the price of normal and medium size burger : ");
+    scanf ("%d %d", &x, &y);
+    printf("\n Emter the amount of money you have ");
+    scanf("%d",&m);
+    if (m > x && m < y)
+    {
+        printf ("Normal");
+    }
+  
+        if (m - y >= x)
+	{
+        printf ("both");
+    }
+      else
+	{
+        printf ("medium");
+    }
+    
+  
+
+}

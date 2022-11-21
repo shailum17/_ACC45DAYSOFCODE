@@ -1,0 +1,21 @@
+#include<stdio.h>
+void main()
+{
+    int n;
+    printf("enter n ");
+    scanf("%d",&n);
+    unsigned int a[n],sum=0;
+    printf("enter element in array\n");
+    for(int i=0;i<n;i++){
+     
+        scanf("%u",&a[i]);
+        sum=sum+a[i];
+    }for(int i=0;i<n;i++){
+        printf("%u ",a[i]);
+    }
+        printf("\n");
+            for(int i=0;i<n;i++){
+         a[i]=sum%a[i];
+         printf("%u ",a[i]);
+    }
+}

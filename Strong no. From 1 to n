@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+void main() {
+int n,fac,sum,k,l;
+printf("Enter n");
+scanf("%d",&n);
+for(int i=1;i<=n;i++){
+     fac=1;sum=0;
+     l=i;
+    while(l!=0){
+        k=l%10;
+        for(int j=1;j<=k;j++){
+            fac=fac*j;
+        }
+        sum=sum+fac;
+        l=l/10;
+    }
+    
+       if(sum==i){
+           printf("%d,",i);
+       } 
+           
+    
+}
+}

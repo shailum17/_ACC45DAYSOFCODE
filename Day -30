@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main ()
+{
+    int age ;
+    printf("Enter the Age : \n ");
+    scanf ("%d",&age);
+    while (age<=18 & age<=30)
+    {
+        
+        printf ("Age is not a valid age please enter valid age  ");
+        scanf("%d",&age);
+    }
+    printf ("%d is  a valid age ",age);
+}

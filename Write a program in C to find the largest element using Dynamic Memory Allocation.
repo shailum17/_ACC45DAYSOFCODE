@@ -1,0 +1,43 @@
+#include<stdio.h>
+#include<stdlib.h>
+void
+main ()
+{
+  
+int *p, n, largest;
+  
+printf ("enter number \n");
+  
+scanf ("%d", &n);
+p = (int *) malloc (n * sizeof (int));
+  
+printf ("enter 1st number\n");
+  
+scanf ("%d", &p[0]);
+  
+largest = p[0];
+  
+for (int i = 1; i < n; i++)
+    {
+      
+printf ("enter %d element", i + 1);
+      
+scanf ("%d", &p[i]);
+      
+if (largest < p[i])
+	{
+	  
+largest = p[i];
+	
+ 
+}
+    
+ 
+}
+  
+printf ("thr largest element is %d", largest);
+  
+free (p);
+
+ 
+}

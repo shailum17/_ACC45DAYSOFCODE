@@ -45,3 +45,20 @@ printf("\n");
 }
 return 0;
 }
+
+
+/**********************************************************
+ * @INFO
+ * Code by Shailendra Mourya
+ * @INFO
+ * Gmail - shailendramourya17@gmail.com@gmail.com
+ * @INFO
+ * Github - shailum17
+ * @INFO
+ * LinkedIn - shailum17
+ * @INFO
+ * Instagram - @shailu_m17
+ * @INFO
+ * Twitter - @shailum_17
+ * @INFO
+ **********************************************************/
